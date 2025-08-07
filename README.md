@@ -13,16 +13,20 @@ redis-server
 ```
 
 ## Step 1: Start Backend
+```bash
 cd backend
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 uvicorn main:app --reload
+```
 
 ## Step 1: Start frontend
+```bash
 cd frontend
 npm install
 npm run start
+```
 
 ## Step 1: Docs
 http://localhost:8000/docs
